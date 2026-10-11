@@ -2829,7 +2829,7 @@ series = {CPP 2019}
   school={University of Pennsylvania}
 }
 
-@InProceedings{generic-bidir-typing,
+@InProceedings{somat-bidir-tc,
 author="Chen, Liang-Ting
 and Ko, Hsiang-Shang",
 editor="Weirich, Stephanie",
@@ -2839,8 +2839,10 @@ year="2024",
 publisher="Springer Nature Switzerland",
 address="Cham",
 pages="115--142",
-isbn="978-3-031-57262-3"
+isbn="978-3-031-57262-3",
+doi="10.1007/978-3-031-57262-3_5",
 }
+
 
 @article{ho-bialg-semantics,
     title      = {Higher-order bialgebraic semantics},
@@ -3534,3 +3536,20 @@ abstract="How close are we to a world where every paper on programming languages
 isbn="978-3-540-31820-0"
 }
 
+@inproceedings{autosubst-theory,
+author = {Sch{\"a}fer, Steven and Smolka, Gert and Tebbi, Tobias},
+title = {Completeness and Decidability of de Bruijn Substitution Algebra in Coq},
+year = {2015},
+isbn = {9781450332965},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2676724.2693163},
+doi = {10.1145/2676724.2693163},
+abstract = {We consider a two-sorted algebra over de Bruijn terms and de Bruijn substitutions equipped with the constants and operations from Abadi et al.'s sigma-calculus. We consider expressions with term variables and substitution variables and show that the semantic equivalence obtained with the algebra coincides with the axiomatic equivalence obtained with finitely many axioms based on the sigma-calculus. We prove this result with an informative decision algorithm for axiomatic equivalence, which in the negative case returns a variable assignment separating the given expressions in the algebra. The entire development is formalized in Coq.},
+booktitle = {Proceedings of the 2015 Conference on Certified Programs and Proofs},
+pages = {67–73},
+numpages = {7},
+keywords = {algebra, completeness, coq, de bruijn terms, decision procedures, explicit substitutions, finite axiomatization},
+location = {Mumbai, India},
+series = {CPP '15}
+}
